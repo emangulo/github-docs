@@ -34,7 +34,7 @@ Dependency review is included in {% data variables.product.product_name %} for p
 
 {% elsif ghes %}
 
-Dependency review is available when dependency graph is enabled for {% data variables.location.product_location %} and {% data variables.product.prodname_advanced_security %} is enabled for the organization or repository.{% ifversion ghes %} For more information, see "[AUTOTITLE](/admin/code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise)."{% endif %}
+Dependency review is available when dependency graph is enabled for the instance and {% data variables.product.prodname_advanced_security %} is enabled for the organization or repository.{% ifversion ghes %} For more information, see "[AUTOTITLE](/admin/code-security/managing-github-advanced-security-for-your-enterprise/enabling-github-advanced-security-for-your-enterprise)."{% endif %}
 
 ### Checking if the dependency graph is enabled
 
@@ -50,6 +50,8 @@ Dependency review is available when dependency graph is enabled for {% data vari
 ## About configuring the {% data variables.dependency-review.action_name %}
 
 {% data reusables.dependency-review.dependency-review-action-overview %}
+
+{% data reusables.dependency-review.org-level-enforcement %}
 
 Here is a list of common configuration options.  For more information, and a full list of options, see [Dependency Review](https://github.com/marketplace/actions/dependency-review) on the {% data variables.product.prodname_marketplace %}.
 
@@ -222,3 +224,7 @@ Notice that all of the examples use a short version number for the action (`v3`)
 
 For further details about the configuration options, see [`dependency-review-action`](https://github.com/actions/dependency-review-action#readme).
 {% endif %}
+
+## Further reading
+
+* "[AUTOTITLE](/code-security/supply-chain-security/understanding-your-software-supply-chain/customizing-your-dependency-review-action-configuration)"

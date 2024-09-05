@@ -28,9 +28,9 @@ If you want to use {% data variables.product.prodname_copilot_short %} in the co
 
 ## 4. Set up networking (if necessary)
 
-If you connect through an HTTP proxy server or firewall, ensure that [these URLs](/copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot#urls-to-add-to-an-allowlist) are added to the allowlist for the proxy server or firewall.
+If you connect through an HTTP proxy server or firewall, ensure that key URLs are added to the allowlist for the proxy server or firewall. See "[AUTOTITLE](/copilot/managing-copilot/managing-github-copilot-in-your-organization/configuring-your-proxy-server-or-firewall-for-copilot)."
 
-You may also need to install a custom SSL certificate on your machine. See "[AUTOTITLE](/copilot/managing-copilot/configure-personal-settings/configuring-network-settings-for-github-copilot)."
+You may also need to install a custom SSL certificate on your machine. See "[AUTOTITLE](/copilot/managing-copilot/configure-personal-settings/configuring-network-settings-for-github-copilot#installing-custom-certificates)."
 
 ## 5. Configure settings (optional)
 
@@ -45,4 +45,4 @@ If you have your own subscription to {% data variables.product.prodname_copilot_
 
 Start using {% data variables.product.prodname_copilot_short %} to help you write code faster and more efficiently. For all the ways you can use {% data variables.product.prodname_copilot_short %}, see "[AUTOTITLE](/copilot/using-github-copilot)." {% data variables.product.prodname_copilot_short %} code suggestions and {% data variables.product.prodname_copilot_chat_short %} in your IDE is a great place to start.
 
-To improve your {% data variables.product.prodname_copilot_short %} results, follow these prompt engineering strategies: "[AUTOTITLE](/copilot/using-github-copilot/prompt-engineering-for-github-copilot)."
+To learn how to best use {% data variables.product.prodname_copilot_short %}, see "[AUTOTITLE](/copilot/using-github-copilot/best-practices-for-using-github-copilot)" and "[AUTOTITLE](/copilot/using-github-copilot/prompt-engineering-for-github-copilot)."

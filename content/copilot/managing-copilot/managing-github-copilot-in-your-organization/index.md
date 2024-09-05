@@ -10,9 +10,10 @@ redirect_from:
 topics:
   - Copilot
 children:
-  - /subscribing-to-copilot-for-your-organization
+  - /managing-the-copilot-subscription-for-your-organization
+  - /setting-policies-for-copilot-in-your-organization
+  - /configuring-your-proxy-server-or-firewall-for-copilot
   - /managing-access-to-github-copilot-in-your-organization
-  - /managing-github-copilot-features-in-your-organization
-  - /reviewing-github-copilot-activity-in-your-organization
-  - /canceling-copilot-for-your-organization
+  - /customizing-copilot-for-your-organization
+  - /reviewing-activity-related-to-github-copilot-in-your-organization
 ---
